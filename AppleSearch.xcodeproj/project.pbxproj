@@ -11,6 +11,7 @@
 		F7B8E0642243F1EC0060B053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B8E0622243F1EC0060B053 /* Main.storyboard */; };
 		F7B8E0662243F1EE0060B053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B8E0652243F1EE0060B053 /* Assets.xcassets */; };
 		F7B8E0692243F1EE0060B053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B8E0672243F1EE0060B053 /* LaunchScreen.storyboard */; };
+		F7B8E0722243F6760060B053 /* AppStoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B8E0712243F6760060B053 /* AppStoreItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F7B8E0652243F1EE0060B053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7B8E0682243F1EE0060B053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7B8E06A2243F1EE0060B053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B8E0712243F6760060B053 /* AppStoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,8 @@
 		F7B8E05D2243F1EC0060B053 /* AppleSearch */ = {
 			isa = PBXGroup;
 			children = (
+				F7B8E074224404F70060B053 /* Controllers */,
+				F7B8E0702243F6690060B053 /* Models */,
 				F7B8E05E2243F1EC0060B053 /* AppDelegate.swift */,
 				F7B8E0622243F1EC0060B053 /* Main.storyboard */,
 				F7B8E0652243F1EE0060B053 /* Assets.xcassets */,
@@ -59,6 +63,37 @@
 				F7B8E06A2243F1EE0060B053 /* Info.plist */,
 			);
 			path = AppleSearch;
+			sourceTree = "<group>";
+		};
+		F7B8E0702243F6690060B053 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7B8E0712243F6760060B053 /* AppStoreItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7B8E074224404F70060B053 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7B8E076224405030060B053 /* ModelControllers */,
+				F7B8E075224404FC0060B053 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F7B8E075224404FC0060B053 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F7B8E076224405030060B053 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B8E0722243F6760060B053 /* AppStoreItem.swift in Sources */,
 				F7B8E05F2243F1EC0060B053 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
